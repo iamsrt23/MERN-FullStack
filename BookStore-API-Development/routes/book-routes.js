@@ -10,6 +10,6 @@ router.get('/',getAllBooks)
 router.get('/get/:id',getSingleBookById)
 router.post('/add',addNewBook)
 router.put('/update/:id',updateBookById)
-router.delete('/delete/:id',deleteBookById)
+router.delete('/delete/:id',deleteBookById )
 
 module.exports = router
